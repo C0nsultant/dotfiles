@@ -2,4 +2,7 @@
 
 - link:
     ~/.gitconfig: gitconfig
+    ~/.gitignore_global: gitignore_global
+    ~/.profile: profile
+    ~/.zshrc: zshrc
 
