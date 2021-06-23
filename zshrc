@@ -15,15 +15,15 @@ antigen bundles <<EOBUNDLES
     robbyrussell/oh-my-zsh plugins/safe-paste
     robbyrussell/oh-my-zsh plugins/sudo
     robbyrussell/oh-my-zsh plugins/virtualenv
-    robbyrussell/oh-my-zsh plugins/vi-mode
+    robbyrussell/oh-my-zsh plugins/virtualenvwrapper
     robbyrussell/oh-my-zsh plugins/web-search
 EOBUNDLES
 
 # other plugins
+    #MichaelAquilina/zsh-autoswitch-virtualenv
 antigen bundles <<EOBUNDLES
     arialdomartini/oh-my-git
 
-    MichaelAquilina/zsh-autoswitch-virtualenv
 
     zsh-users/zsh-syntax-highlighting
     zsh-users/zsh-autosuggestions
@@ -56,4 +56,7 @@ antigen apply
 
 bindkey '^[[A' history-substring-search-up
 bindkey '^[[B' history-substring-search-down
+
+export VISUAL=vim
+export EDITOR="$VISUAL"
 

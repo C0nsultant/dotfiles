@@ -1,4 +1,9 @@
 [core]
 	excludesfile = ~/.gitignore_global
+        fileMode = false
 [commit]
 	gpgsign = true
+[user]
+	signingkey = F36801FA6C1020E6
+	email = anokfireball@posteo.de
+	name = Fabian Koller
