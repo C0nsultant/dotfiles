@@ -4,6 +4,7 @@
     - ~/.zsh
 
 - link:
+    ~/.ansible.cfg: ansible.cfg
     ~/.gitconfig: gitconfig
     ~/.gitignore_global: gitignore_global
     ~/.profile: profile
